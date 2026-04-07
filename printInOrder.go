@@ -36,7 +36,7 @@ func (f *Foo) Third(printThird func()) {
 // ======================
 // Simple test harness (for your local practice only)
 // ======================
-//func main() {
+func test() {
 	foo := NewFoo()
 	var wg sync.WaitGroup
 	wg.Add(3)

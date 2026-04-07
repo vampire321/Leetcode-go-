@@ -41,7 +41,7 @@ func (fb *FooBar) Bar(printBar func()) {
 // ======================
 // Simple test harness (for your local practice only)
 // ======================
-func main() {
+func alternativeFooBar() {
 	n := 5 // change this to test different values
 	fb := NewFooBar(n)
 
